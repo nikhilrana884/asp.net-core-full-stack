@@ -4,7 +4,7 @@ namespace e_lib.Models
 {
     public class OrderItems
     {
-        public int Id { get; set; }
+        public int ID { get; set; }
 
         public int OrderID { get; set; }
 

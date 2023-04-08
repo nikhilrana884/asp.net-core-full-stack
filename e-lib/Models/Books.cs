@@ -4,7 +4,7 @@ namespace e_lib.Models
 {
     public class Books
     {
-        public int Id { get; set; }
+        public int ID { get; set; }
 
         public string Name { get; set; }
 
@@ -21,6 +21,8 @@ namespace e_lib.Models
         public string ImageUrl { get; set; }
 
         public int Status { get; set; }
+
+        public string Type { get; set; }
 
     }
 }
